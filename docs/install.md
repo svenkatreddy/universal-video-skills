@@ -3,7 +3,7 @@
 The skills follow the open Agent Skills format (`SKILL.md` with frontmatter),
 which is now read natively by 24+ tools. Pick your agent below. If your
 client isn't listed, copy the `skills/` folders into whatever directory your
-client scans for skills — the format is the same everywhere.
+client scans for skills. The format is the same everywhere.
 
 ## The one-liner (skills.sh)
 
@@ -30,17 +30,17 @@ or `<project>/.claude/skills/` (project). E.g.
 **Muse:** skills live under `~/workspace/skills/<name>/`. Copy the skill
 folders there.
 
-**Gemini CLI:** `~/.muse/skills/` — same layout, skill folder per skill.
+**Gemini CLI:** `~/.muse/skills/` (same layout, skill folder per skill).
 
 **Cursor / Windsurf / Cline / OpenCode:** these read `SKILL.md` from their
-configured skills/rules directories — check your client's docs for the exact
+configured skills/rules directories, so check your client's docs for the exact
 path and drop the folders in.
 
 **Grok:** xAI's Grok Skills import instruction blocks as `.zip`, `.skill`,
 or `.md` files. Zip the `skills/` directory (or a single skill folder) and
 import it through Grok's skills interface.
 
-**Codex CLI:** supports the Agent Skills standard — place skill folders in
+**Codex CLI:** supports the Agent Skills standard. Place skill folders in
 its skills directory per the Codex docs.
 
 ## Which skills to install

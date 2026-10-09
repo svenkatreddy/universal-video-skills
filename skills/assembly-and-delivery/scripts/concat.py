@@ -105,7 +105,7 @@ def main():
     actual = stream_info(args.output)["duration"]
     print(f"Expected ~{expected:.2f}s, got {actual:.2f}s")
     if abs(expected - actual) > 0.5:
-        sys.exit("Duration mismatch — inspect the output before using it.")
+        sys.exit("Duration mismatch: inspect the output before using it.")
     print(f"Done: {args.output}")
 
 

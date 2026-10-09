@@ -1,11 +1,11 @@
 ---
 name: video-qa
-description: Review AI-generated clips like a QC department — per-shot checklists, frame evidence, continuity across joins, and honest verdicts. Use when deciding whether a clip ships, gets fixed, or gets cut.
+description: "Review AI-generated clips like a QC department: per-shot checklists, frame evidence, continuity across joins, and honest verdicts. Use when deciding whether a clip ships, gets fixed, or gets cut."
 ---
 
 # Video QA
 
-Every AI clip gets reviewed before it ships. Not watched — reviewed: against
+Every AI clip gets reviewed before it ships. Not watched, but reviewed: against
 its brief, frame by frame where it matters, with a written verdict. The
 review is short, but it's written down, because "looked fine" is how bad
 shots survive into the final cut.
@@ -14,12 +14,12 @@ shots survive into the final cut.
 
 1. **Check against the brief.** The shot-brief is the spec
    (`references/qa-checklist.md`). The clip either does its story job or it
-   doesn't — everything else is secondary. Name failures from the taxonomy
+   doesn't. Everything else is secondary. Name failures from the taxonomy
    (`references/failure-taxonomy.md`) so each defect maps to its fix.
 2. **Pull frame evidence.** Contact sheets at clip boundaries and key beats
    (`references/frame-evidence.md`, `scripts/contact_sheet.py`). For volume,
    run the embedding triage first (`references/automated-identity-qa.md`,
-   `scripts/identity_score.py`) — humans review the failures plus a sample
+   `scripts/identity_score.py`). Humans review the failures plus a sample
    of passes. Eyes miss drift that stills catch.
 3. **Check the joins.** Continuity across every cut
    (`references/continuity.md`): geography, light, wardrobe, screen
@@ -39,5 +39,5 @@ shots survive into the final cut.
   shot, not the prompt: simplify it, shorten it, switch to image-to-video,
   or cut it.
 - **Write it down.** Clip ID, verdict, what was wrong, what changed. This log
-  becomes your project's failure-mode list — the most valuable document you
+  becomes your project's failure-mode list. The most valuable document you
   own by the end.

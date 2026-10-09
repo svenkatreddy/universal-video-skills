@@ -13,11 +13,11 @@ three.
   gesture.
 - **Medium close-up.** Chest up. Attention narrows to the face without losing
   the body.
-- **Close-up.** Face fills frame. Emotion, realization, detail. Spend these —
-  a video that's all close-ups has nowhere to go.
+- **Close-up.** Face fills frame. Emotion, realization, detail. Spend these.
+  A video that's all close-ups has nowhere to go.
 - **Extreme close-up.** An eye, a hand, a key turning. Punctuation, not prose.
 - **Insert.** The object that matters: the letter, the knife, the ticket.
-- **Over-the-shoulder.** Dialogue with geography — we see who they're talking
+- **Over-the-shoulder.** Dialogue with geography. We see who they're talking
   to and where everyone stands.
 
 ## Angle (from where)
@@ -28,7 +28,7 @@ three.
 - **Bird's eye / top-down.** Pattern, layout, god's-eye detachment.
 - **Dutch / canted.** Unease. A little goes a long way; a lot looks like a
   mistake.
-- **POV.** We are the character. Powerful for immersion, hard to sustain —
+- **POV.** We are the character. Powerful for immersion but hard to sustain:
   models drift out of POV fast.
 
 ## Movement (the one move)
@@ -44,8 +44,8 @@ three.
 - **Tilt.** Rotate up/down. Reveal height, or a face after feet.
 - **Crane / jib.** Sweeping vertical move. Openings, endings, grandeur.
 - **Orbit.** Circle the subject. Intensity, scrutiny, time freezing.
-- **Handheld.** Human shake, documentary urgency. Write "subtle handheld" —
-  unqualified, models overdo it.
+- **Handheld.** Human shake, documentary urgency. Write "subtle handheld".
+  Without that qualifier, models overdo it.
 - **Whip pan / crash zoom.** Transitions and punctuation. Use between beats,
   not inside them.
 
@@ -56,8 +56,8 @@ three.
 - **Shallow depth of field / f/1.8.** Subject sharp, world melts. The
   fastest "cinematic" switch there is.
 - **Deep focus.** Everything sharp. Tableaus, detail-dense frames.
-- **Anamorphic.** Widescreen flares, oval bokeh. Instant cinema grammar —
-  but say it only if you mean the whole project to look that way.
+- **Anamorphic.** Widescreen flares, oval bokeh. Instant cinema grammar.
+  Only use it if you mean the whole project to look that way.
 
 ## Writing it
 

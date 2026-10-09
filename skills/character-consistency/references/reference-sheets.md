@@ -1,6 +1,6 @@
 # Reference Sheets
 
-One sheet per asset. Physical, specific, and frozen — this is the text that
+One sheet per asset. Physical, specific, and frozen. This is the text that
 gets pasted verbatim into prompts, so write it like a spec, not a story.
 
 ## Character sheet template
@@ -18,8 +18,8 @@ Never: long hair, different jacket color, heavy makeup.
 ```
 
 Notice: no personality, no backstory, no mood. The sheet answers "what does
-she look like, standing still, in neutral light." Everything else — wet hair,
-torn sleeve, terrified expression — belongs in the shot-brief, because it
+she look like, standing still, in neutral light." Everything else (wet hair,
+torn sleeve, terrified expression) belongs in the shot-brief, because it
 changes per shot.
 
 ## Product sheet template
@@ -33,7 +33,7 @@ Never: glossy finish, visible logo variations, condensation (unless briefed).
 ```
 
 Geometry, materials, label text and placement, scale cues. "The thing being
-sold" deserves the same rigor as a face — audiences spot product drift
+sold" deserves the same rigor as a face. Audiences spot product drift
 instantly.
 
 ## Writing rules

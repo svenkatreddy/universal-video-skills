@@ -1,7 +1,7 @@
 # Hailuo / MiniMax (Adapter)
 
 _Last verified: 2026-10-08. Verify durations, resolutions, and pricing
-against current docs before planning — vendor tiers have changed before._
+against current docs before planning. Vendor tiers have changed before._
 
 ## In one line
 
@@ -10,15 +10,15 @@ Chinese-language content and stylized shorts.
 
 ## Prompt quirks
 
-- Does well with expressive, performance-directed prompts — direct the
+- Does well with expressive, performance-directed prompts. Direct the
   actor, not just the camera ("she hesitates, then forces the smile").
 - Supports Chinese and English prompting; match the interface.
-- Reference/character features (where available) help identity — use them
+- Reference/character features (where available) help identity. Use them
   plus the asset registry, not instead of it.
 
 ## Hard limits
 
-- Duration and tier limits have shifted over time — verify current caps
+- Duration and tier limits have shifted over time, so verify current caps
   before planning a project around them.
 - Audio/dialogue features vary by version; plan voiceover in post as the
   default.
@@ -31,7 +31,7 @@ Chinese-language content and stylized shorts.
 ## Translating a shot-brief
 
 - Write the Subject and Beats slots with acting direction, not just
-  blocking — this model responds to performance language.
+  blocking. This model responds to performance language.
 - Keep the negative block; expressive models still invent extra fingers.
-- Verify the current tier's limits first — this adapter's specs have gone
+- Verify the current tier's limits first. This adapter's specs have gone
   stale before, and stale specs are worse than no specs.

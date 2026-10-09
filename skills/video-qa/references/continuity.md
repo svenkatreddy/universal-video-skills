@@ -7,7 +7,7 @@ Check every join for the five continuities:
 1. **Identity.** Same faces, same wardrobe, same products on both sides of
    the cut. Compare boundary frames, not memories.
 2. **Geography.** Characters don't teleport. If she exits right, she enters
-   from the left — unless the cut is a deliberate time/place jump, in which
+   from the left, unless the cut is a deliberate time/place jump, in which
    case the audience needs an establishing cue.
 3. **Light.** Noon doesn't cut to midnight. Grade and light direction should
    match unless the story changed the time.

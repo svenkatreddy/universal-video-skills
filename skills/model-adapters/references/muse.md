@@ -11,18 +11,18 @@ loop.
 
 ## Prompt quirks
 
-- Short clips (~10 seconds) — plan in segments and stitch, don't
+- Short clips (~10 seconds). Plan in segments and stitch, don't
   wish for long takes.
 - Works well from the shot-brief grammar in prose; keep prompts ASCII-only
   (non-ASCII filenames and text have caused upstream rejections).
 - Reference images help continuity; pass the same character references
   every time.
-- It can't hear audio or see motion the way you do — verify results with
+- It can't hear audio or see motion the way you do, so verify results with
   extracted frames, not assumptions.
 
 ## Hard limits
 
-- Clip length caps around ~10s — verify current limits in-session; they
+- Clip length caps around ~10s. Verify current limits in-session; they
   change.
 - Face identity across clips is weak: lean hard on the asset registry and
   verbatim descriptions.

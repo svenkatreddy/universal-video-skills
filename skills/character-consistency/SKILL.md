@@ -1,6 +1,6 @@
 ---
 name: character-consistency
-description: Keep faces, products, and props identical across AI-generated shots — asset registry, reference sheets, verbatim descriptions. Use when a character or product appears in more than one shot, or when faces keep drifting between generations.
+description: Keep faces, products, and props identical across AI-generated shots with an asset registry, reference sheets, and verbatim descriptions. Use when a character or product appears in more than one shot, or when faces keep drifting between generations.
 ---
 
 # Character Consistency
@@ -8,7 +8,7 @@ description: Keep faces, products, and props identical across AI-generated shots
 The single most visible failure in AI video: the same person looks like three
 different people across four shots. Models don't remember your character from
 shot to shot. Every generation starts from zero, so continuity has to be
-engineered — with words, pictures, and IDs that don't change.
+engineered with words, pictures, and IDs that don't change.
 
 ## The workflow
 
@@ -16,7 +16,7 @@ engineered — with words, pictures, and IDs that don't change.
    prop gets an asset ID before the first generation
    (`references/asset-registry.md`). The registry is the single source of
    truth.
-2. **Write the reference sheet.** One canonical description per asset —
+2. **Write the reference sheet.** One canonical description per asset:
    physical, specific, frozen (`references/reference-sheets.md`). This text
    gets pasted verbatim into every prompt. Verbatim. Not "in your own words."
 3. **Attach reference images where the model allows.** Image inputs lock
@@ -34,12 +34,12 @@ engineered — with words, pictures, and IDs that don't change.
   differently, you have two faces. Copy-paste is a feature.
 - **IDs are contracts.** `mara-01` means the registry entry, not "a woman
   kind of like Mara." When the description needs to change, change the
-  registry and bump the version — don't silently edit prompts.
+  registry and bump the version. Don't silently edit prompts.
 - **Describe what's stable, not what's momentary.** The reference sheet holds
-  face, build, hair, wardrobe staples — not expressions, not poses, not
+  face, build, hair, wardrobe staples. Not expressions, not poses, not
   lighting. Momentary things live in the shot-brief.
 - **Products are characters too.** A bottle, a car, a logo: same discipline.
-  Geometry, colors, label placement — frozen and cited.
+  Geometry, colors, label placement: frozen and cited.
 - **Fewer recurring assets, better continuity.** Every additional recurring
   character multiplies the drift surface. Design casts you can actually hold
   together.

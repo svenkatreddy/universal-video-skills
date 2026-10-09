@@ -1,13 +1,13 @@
 # Universal Video Skills
 
 A skill pack for AI agents that make video. Eight skills covering the whole
-job — writing prompts, directing the camera, planning multi-shot stories,
+job: writing prompts, directing the camera, planning multi-shot stories,
 keeping faces consistent, handling dialogue and audio, stitching the final
 cut, and checking the result before it ships.
 
 The one thing it refuses to do: lock you into a single video model. Write
-the prompt once, then translate it for whichever generator you're using —
-Muse, Gemini/Veo, Sora, Kling, Runway, Pika, Luma, or Hailuo — with a
+the prompt once, then translate it for whichever generator you're using
+(Muse, Gemini/Veo, Sora, Kling, Runway, Pika, Luma, or Hailuo) with a
 per-model adapter sheet. It works in any agent that reads the open
 [Agent Skills](https://agentskills.io) format: Claude Code, Muse, Gemini
 CLI, Grok, Cursor, Codex, and the rest.
@@ -17,12 +17,12 @@ CLI, Grok, Cursor, Codex, and the rest.
 Every video skill I found was welded to one tool: one assumed Muse's
 built-in generator, another assumed an unreleased Meta model, a third
 assumed a Chinese API toolchain, a fourth was motion-graphics code with no
-AI generation at all. The craft inside them was often excellent — prompt
-grammars, continuity systems, QA gates — but you couldn't take any of it to
+AI generation at all. The craft inside them was often excellent: prompt
+grammars, continuity systems, QA gates. But you couldn't take any of it to
 a different model without rewriting it yourself.
 
 So I took the craft and left the lock-in. The prompting grammar, the
-continuity discipline, the review gates, the assembly scripts — rewritten
+continuity discipline, the review gates, the assembly scripts were all rewritten
 from scratch, in plain English, with the model-specific bits isolated in
 adapter sheets that are dated and honest about going stale.
 
@@ -31,16 +31,16 @@ adapter sheets that are dated and honest about going stale.
 | Skill | What it does |
 |---|---|
 | `video-prompt-craft` | The core: shot-brief grammar, JSON prompting, negative prompts, failure-mode hardening |
-| `cinematic-direction` | Camera language, lighting and color, style lenses — directing vocabulary |
+| `cinematic-direction` | Camera language, lighting and color, style lenses: directing vocabulary |
 | `story-and-shots` | Beats, shot lists, storyboards, review gates, fast-track for simple jobs |
-| `character-consistency` | Asset registry, reference sheets, verbatim descriptions — no face drift |
+| `character-consistency` | Asset registry, reference sheets, verbatim descriptions: no face drift |
 | `dialogue-and-audio` | Voiceover writing and casting, subtitles, mixing |
 | `assembly-and-delivery` | ffmpeg stitching, transitions, titles, watermarks, platform exports (16:9/9:16/1:1) |
 | `model-adapters` | Per-model translation sheets: Muse, Veo, Sora, Kling, Runway, Pika, Luma, Hailuo |
 | `video-qa` | Per-shot checklists, frame evidence, continuity across joins, written verdicts |
 
 Each skill is a thin `SKILL.md` that routes into deep reference files.
-Install all eight or just the ones you need — they're self-contained and
+Install all eight or just the ones you need. They're self-contained and
 cross-link with relative paths.
 
 ## Quick start
@@ -58,7 +58,7 @@ npm install universal-video-skills
 Per-agent install paths (Claude Code, Muse, Gemini CLI, Grok, Cursor…)
 are in [docs/install.md](docs/install.md).
 
-Then look at the [examples](examples/) — a finished shot-brief, its JSON
+Then look at the [examples](examples/): a finished shot-brief, its JSON
 version, a storyboard, and an asset registry from a small sample project.
 They're the fastest way to see how the pieces fit.
 
@@ -74,11 +74,11 @@ to move on.
 
 ## Honest limits
 
-This pack doesn't generate video — it teaches agents to direct it. It can't
+This pack doesn't generate video. It teaches agents to direct it. It can't
 make a model do what the model can't do (readable text, perfect lip sync,
 and complex physics are still hard everywhere). Model specs go stale, so
 every adapter is dated: verify before you plan around a number. The full
-list is in [docs/honest-limits.md](docs/honest-limits.md) — read it before
+list is in [docs/honest-limits.md](docs/honest-limits.md). Read it before
 you decide this is for you.
 
 ## Acknowledgments
@@ -93,10 +93,9 @@ multi-agent positioning to the wider community (visual-skills, DirectorSKILL,
 the cinematic-video-prompt-skill, and others). The I2V prompt-subtraction
 principle comes from 0xzgbot's hermes-media-skill-pack (MIT); the failure
 taxonomy and layered-gate structure from the indie-qa work in xiaowli's
-openmontage (AGPLv3 — concepts only, no code taken); the embedding-based
+openmontage (AGPLv3: concepts only, no code taken); the embedding-based
 identity QA pattern from ndpvt-web's capy-video-gen-skill (MIT).
-Everything here is rewritten in my own words — borrow the ideas, credit
-the people.
+Everything here is rewritten in my own words. Borrow the ideas, credit the people.
 
 ## Contributing
 
@@ -106,4 +105,4 @@ are not. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).

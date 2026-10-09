@@ -17,7 +17,7 @@ gesturing hands, add `distorted hands` to negatives.
 
 **Morphing mid-shot.** Features slide around during the clip. Fix: shorter
 beats (≤5s chunks), `locked` camera language, `morphing face` in negatives.
-Morphing gets worse with longer durations and complex motion — budget
+Morphing gets worse with longer durations and complex motion, so budget
 accordingly.
 
 ## Text and detail
@@ -40,7 +40,7 @@ or slow camera moves, `warping background` in negatives, simpler backgrounds.
 
 **Physics breaks.** Objects pass through each other, liquid behaves wrong.
 Fix: simplify the interaction. One object, one action. Complex
-object-interaction is still the frontier — design around it.
+object-interaction is still the frontier. Design around it.
 
 ## Continuity
 
@@ -64,6 +64,6 @@ it (adapters). Plan ADR/voiceover in post as the default, not the fallback
 
 When a shot fails twice with prompt changes, stop prompting and change the
 plan: simplify the action, shorten the clip, switch to image-to-video with a
-locked first frame, or cut around it. The prompt is not always the problem —
+locked first frame, or cut around it. The prompt is not always the problem:
 sometimes the shot is just beyond what current models do well. Knowing which
 shots to avoid is a skill, not a surrender.

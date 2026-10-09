@@ -1,7 +1,7 @@
 # Storyboarding for AI Video
 
 You don't need drawing skills. A storyboard for AI video is a planning
-document, not art — boxes, stick figures, and arrows are fine. Its job is to
+document, not art. Boxes, stick figures, and arrows are fine. Its job is to
 catch the problems text hides: geography that doesn't connect, pacing with no
 breathing room, five close-ups in a row.
 
@@ -41,5 +41,5 @@ Lay the panels in order and read them left to right. You're looking for:
 ## When to skip it
 
 Single shots, tests, and experiments don't need boards. The rule: board when
-shots have to relate to each other — that's usually at three or more shots,
+shots have to relate to each other. That's usually at three or more shots,
 or any time there's dialogue, pursuit, or a reveal.

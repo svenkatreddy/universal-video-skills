@@ -1,7 +1,7 @@
 # The Per-Shot QA Checklist
 
-Run every clip through this list. It's fast — under two minutes a clip once
-you're used to it — and it catches nearly everything.
+Run every clip through this list. It's fast (under two minutes a clip once
+you're used to it) and it catches nearly everything.
 
 ## Story
 
@@ -12,7 +12,7 @@ you're used to it — and it catches nearly everything.
 
 ## Subject
 
-- [ ] Face/body matches the asset registry (not "close enough" — matches).
+- [ ] Face/body matches the asset registry (not "close enough": matches).
 - [ ] Wardrobe, hair, distinguishing marks correct.
 - [ ] Product geometry, colors, label correct (if applicable).
 - [ ] No extra/missing limbs; hands plausible.
@@ -21,7 +21,7 @@ you're used to it — and it catches nearly everything.
 
 - [ ] Framing matches the brief (not a different shot that happens to be
   nice).
-- [ ] The one camera move happened — and only that move.
+- [ ] The one camera move happened, and only that move.
 - [ ] Light matches the project's lens and the adjacent shots.
 - [ ] No gibberish text, watermarks, or logos that shouldn't be there.
 
@@ -29,7 +29,7 @@ you're used to it — and it catches nearly everything.
 
 - [ ] Action completes inside the clip (no cut-off gestures).
 - [ ] No morphing, warping backgrounds, or sliding feet.
-- [ ] The tail 2 seconds hold up (check separately — always).
+- [ ] The tail 2 seconds hold up (check separately, always).
 
 ## Audio (if generated)
 
@@ -39,7 +39,7 @@ you're used to it — and it catches nearly everything.
 
 ## Verdict
 
-**Ship** — passes everything. **Fix** — note the single slot to change and
-regenerate. **Cut** — the shot isn't working; remove it or replace the idea.
+**Ship:** passes everything. **Fix:** note the single slot to change and
+regenerate. **Cut:** the shot isn't working; remove it or replace the idea.
 
 Log it: clip ID, verdict, defect, fix. One line each.

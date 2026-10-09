@@ -10,7 +10,7 @@ space.
 
 ## Prompt quirks
 
-- Camera-move descriptions pay off — write them precisely (the
+- Camera-move descriptions pay off, so write them precisely (the
   camera-language vocabulary maps well).
 - Keyframe-style workflows (where supported): define start/end frames and
   let the model interpolate the move.
@@ -18,7 +18,7 @@ space.
 
 ## Hard limits
 
-- Duration caps per version — verify.
+- Duration caps per version. Verify.
 - Character identity across clips needs the same asset discipline as
   everywhere else.
 
@@ -29,7 +29,7 @@ space.
 
 ## Translating a shot-brief
 
-- Invest in the Camera slot — it's this model's best feature.
+- Invest in the Camera slot. It's this model's best feature.
 - Establishing shots and transitions between scenes are its sweet spot;
   put your hardest camera moves here.
 - Keep action simple per beat; let the camera do the work.

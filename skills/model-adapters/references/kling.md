@@ -11,15 +11,15 @@ human movement and dynamic shots.
 ## Prompt quirks
 
 - Camera-control features (in supported interfaces) take explicit move
-  descriptions well — use the camera-language vocabulary literally.
+  descriptions well, so use the camera-language vocabulary literally.
 - Image-to-video is a strength: lock the first frame, then direct the
   motion. For tricky shots, generate the still first.
-- Negative prompts supported in most interfaces — use the project block.
+- Negative prompts supported in most interfaces. Use the project block.
 - Prompt in the interface's expected language/format; check current docs.
 
 ## Hard limits
 
-- Duration caps per model version — verify; plan multi-shot for anything
+- Duration caps vary by model version, so verify. Plan multi-shot for anything
   longer.
 - Text rendering unreliable, as everywhere.
 
@@ -30,7 +30,7 @@ human movement and dynamic shots.
 
 ## Translating a shot-brief
 
-- The Camera slot is load-bearing here — write the one move precisely.
+- The Camera slot is load-bearing here. Write the one move precisely.
 - Prefer image-to-video for performance shots: still first (matching the
   storyboard panel), then animate.
 - Keep beats short; Kling rewards clear, simple action per chunk.

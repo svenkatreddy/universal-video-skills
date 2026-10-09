@@ -31,7 +31,7 @@ scout could find it. "A laundromat at 2 a.m., fluorescents buzzing, one dryer
 still tumbling" beats "a laundromat."
 
 **Camera.** Framing plus movement, in that order. "Medium close-up, slow push
-in." If the camera doesn't move, say "locked off" — static is a choice, and
+in." If the camera doesn't move, say "locked off". Static is a choice, and
 models drift when you don't choose. (Full vocabulary:
 `../../cinematic-direction/references/camera-language.md`.)
 
@@ -66,11 +66,11 @@ fingers, no text on signs, no camera shake.` See `negative-prompts.md` and
 
 Notice what's missing: "cinematic," "beautiful," "8k," "masterpiece." Those
 words do nothing. The brief above is longer than a one-liner and shorter than
-a paragraph of adjectives — and it gives the model decisions instead of
+a paragraph of adjectives, and it gives the model decisions instead of
 homework.
 
 ## Iteration discipline
 
 Change one slot per regeneration. Keep every version. When something finally
-works, the version history *is* the documentation — it shows which slot fixed
+works, the version history *is* the documentation. It shows which slot fixed
 which problem.

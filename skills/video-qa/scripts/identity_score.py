@@ -28,7 +28,7 @@ Notes:
   taxonomy's manual gates still own the fine detail.
 - Do NOT reuse face-recognition thresholds here: e.g. capy-video-gen-skill's
   0.40 pass mark is for VGG-Face embeddings on human faces. CLIP on a
-  cartoon deity is a different space — calibrate per project.
+  cartoon deity is a different space, so calibrate per project.
 """
 
 import argparse
@@ -90,7 +90,7 @@ def get_model(model_name, device):
         import open_clip
         device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         if device == "cpu":
-            print("note: running on CPU — scoring will be slow (~1-2s/frame).",
+            print("note: running on CPU, so scoring will be slow (~1-2s/frame).",
                   file=sys.stderr)
         cache = os.path.expanduser("~/.cache/clip")
         if not (os.path.isdir(cache) and os.listdir(cache)):
@@ -160,7 +160,7 @@ def calibrate(ref_vec, good, bad, model_name, device):
               f"(midpoint between worst good and best bad).")
         print("Start there; tighten if bad clips pass, loosen if good clips fail.")
     else:
-        print("WARNING: good/bad overlap — no clean threshold. "
+        print("WARNING: good/bad overlap, so no clean threshold. "
               "Pick one by trading off misses vs false alarms, or improve the "
               "reference (tighter crop on the character helps).")
 

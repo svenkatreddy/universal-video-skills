@@ -10,16 +10,16 @@ short-form.
 
 ## Prompt quirks
 
-- Short-form native — brief for punch, not for epics. One clear action per
+- Short-form native. Brief for punch, not for epics. One clear action per
   clip.
 - Effects-forward: write the effect as the action ("the car melts into
-  chrome liquid") — Pika-style models eat this up.
+  chrome liquid"). Pika-style models eat this up.
 - Keep prompts compact; long briefs get diluted. Compress the eight slots
   to the four that matter: subject, action, camera, avoid.
 
 ## Hard limits
 
-- Short durations — verify caps; this is a clip tool, not a scene tool.
+- Short durations, so verify caps. This is a clip tool, not a scene tool.
 - Detail stability under complex motion is limited; simplify.
 
 ## Good at / weak at
@@ -32,4 +32,4 @@ short-form.
 - Compress: subject + visible action + camera + avoid. Drop beats to one
   line.
 - Design for the cut: Pika clips are ingredients for assembly, not scenes.
-- Story-and-shots planning still applies — more shots, shorter each.
+- Story-and-shots planning still applies: more shots, shorter each.

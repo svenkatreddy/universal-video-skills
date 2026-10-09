@@ -6,7 +6,7 @@ perishable.
 ```markdown
 # <Model> (Adapter)
 
-_Last verified: YYYY-MM-DD. Specs change — recheck before planning._
+_Last verified: YYYY-MM-DD. Specs change, so recheck before planning._
 
 ## In one line
 
@@ -22,7 +22,7 @@ actually use it.
 
 ## Hard limits
 
-- Max duration, resolutions, aspect ratios. (Verify — these move.)
+- Max duration, resolutions, aspect ratios. (Verify; these move.)
 - Anything it flat-out can't do (text, dialogue, etc.).
 
 ## Good at / weak at
