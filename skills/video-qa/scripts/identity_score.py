@@ -22,9 +22,9 @@ Requires: ffmpeg on PATH; Python deps: torch, open_clip_torch, Pillow.
 (CPU works but is slow; CUDA recommended for batches of clips.)
 
 Notes:
-- CLIP measures overall visual similarity, not "is the trunk right".
+- CLIP measures overall visual similarity, not "is the ear the right shape".
   It catches gross drift (face/character swaps, morphing) reliably and
-  subtle part-level defects (trunk shortening) sometimes. The failure
+  subtle part-level defects (a shortened horn) sometimes. The failure
   taxonomy's manual gates still own the fine detail.
 - Do NOT reuse face-recognition thresholds here: e.g. capy-video-gen-skill's
   0.40 pass mark is for VGG-Face embeddings on human faces. CLIP on a

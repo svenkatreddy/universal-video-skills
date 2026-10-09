@@ -10,7 +10,7 @@ That's the repair loop: **defect → mapped fix → regenerate → re-verify.**
 | Defect | What you see | Likely cause | Fix |
 |---|---|---|---|
 | `identity_drift` | Face/body changes across shots | Paraphrased descriptions; no reference image | Freeze verbatim description; add reference image; cite asset ID |
-| `part_loss` | Trunk, limb, or prop detail vanishes mid-shot | Model dropped a complex appendage in motion | Regenerate with the part named in Preserve ("Ganesha's trunk curled left, fully visible"); shorten the clip |
+| `part_loss` | A distinctive part (ear, horn, antenna, logo detail) vanishes or reshapes mid-shot | Model dropped a complex appendage in motion | Regenerate with the part named in Preserve ("the dragon's left horn, fully visible, same curve throughout"); shorten the clip |
 | `lineup_invention` | Extra people/objects appear | Unpinned counts | Identity-lock: exact counts in Subject + Preserve; reseed |
 | `count_drift` | Three stalls become two, then four | Counts stated once, weakly | State exact counts in brief *and* Preserve; check boundary frames |
 | `wardrobe_change` | Clothes/hair differ between shots | No asset lock | Register the asset; cite ID; never paraphrase |

@@ -41,7 +41,7 @@ python3 scripts/identity_score.py --ref assets/mara-front.png \
 
 - Embeddings measure overall visual similarity, not story correctness. A
   clip can pass the numbers and still have the wrong action.
-- Subtle part-level defects (a slightly shortened trunk, a shifted logo)
+- Subtle part-level defects (a slightly reshaped ear, a shifted logo)
   sometimes slip under the threshold. The manual gates
   (`qa-checklist.md`, `failure-taxonomy.md`) still own fine detail.
 - Needs Python + torch: heavy for a quick job. For fewer than ~5 clips,
