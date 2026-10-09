@@ -10,7 +10,7 @@ plus a random sample of the passes.
 
 1. **Extract** N frames evenly across each clip (ffmpeg).
 2. **Embed** each frame. Faces → face-recognition embeddings (DeepFace /
-   VGG-Face, ArcFace); everything else — cartoon characters, products,
+   VGG-Face, ArcFace); everything else: cartoon characters, products,
    creatures → general vision embeddings (CLIP).
 3. **Score** cosine distance of each frame vs. the reference (character
    sheet / product photo) embedding. The clip's score is its *worst* frame:
@@ -32,10 +32,10 @@ python3 scripts/identity_score.py --ref assets/mara-front.png \
 
 - **Human faces:** face-specific models (VGG-Face, ArcFace via DeepFace or
   similar). Capy's validated numbers: 70% face-distance reduction, pass at
-  cosine distance < 0.40 — but that's *their* model and data. Recalibrate
+  cosine distance < 0.40. But that's *their* model and data. Recalibrate
   for yours.
 - **Non-faces:** CLIP (ViT-B-32 is a fine default). No universal threshold
-  exists — the calibration step is mandatory, not optional.
+  exists. The calibration step is mandatory, not optional.
 
 ## Honest limits
 

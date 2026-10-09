@@ -6,10 +6,10 @@ video looks like twelve different films spliced together.
 
 ## How to set one
 
-Pick one lens. Write it as concrete tokens — stocks, eras, techniques, a
-named grammar — and paste the same line into every brief. Example:
+Pick one lens. Write it as concrete tokens (stocks, eras, techniques, a
+named grammar) and paste the same line into every brief. Example:
 
-`Style: 1970s paranoia thriller — 35mm, natural light, zoom lenses, muted
+`Style: 1970s paranoia thriller: 35mm, natural light, zoom lenses, muted
 warm grade, subtle grain.`
 
 That's a lens. "Cinematic and moody" is not.
@@ -22,7 +22,7 @@ Y2K gloss (high contrast, saturated, music-video cutting).
 
 **Film stocks.** Kodak Vision3 500T (warm tungsten night), Fuji 400H (soft
 pastel daylight), Tri-X / HP5 (hard black-and-white), expired 35mm
-(color shifts, unpredictability — use sparingly).
+(color shifts, unpredictability; use sparingly).
 
 **Director grammars** (use as shorthand, not impersonation). Slow arthouse
 (long takes, locked frames, natural light), kinetic action (whip pans, snap
@@ -32,7 +32,7 @@ noir (hard shadow, venetian blinds, wet streets).
 **Animation and stylization.** Hand-drawn anime (cel shading, limited
 animation holds), watercolor storybook, claymation (visible fingerprints,
 stepped motion), pixel-art, paper-cutout. Stylization hides model weaknesses
-well — faces matter less when nobody's photoreal.
+well. Faces matter less when nobody's photoreal.
 
 ## Rules
 
@@ -42,7 +42,7 @@ well — faces matter less when nobody's photoreal.
   project template, next to the negative-prompt block.
 - **Test the lens before the story.** Generate one establishing shot and one
   close-up with the lens. If both look right, the lens holds. If not, fix the
-  lens now — not after twenty shots.
+  lens now, not after twenty shots.
 - **Lenses are not adjectives.** Every lens must survive being read as
   instructions: stocks, focal lengths, light sources, grades. If a token
   doesn't change the image, cut it.

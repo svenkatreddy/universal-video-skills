@@ -3,26 +3,26 @@
 ## Beats
 
 A beat is the smallest unit of story: something changes. "Mara enters the
-market" is not a beat — nothing changed. "Mara decides to follow the stranger"
+market" is not a beat. Nothing changed. "Mara decides to follow the stranger"
 is a beat.
 
 Write beats as one line each, in order. A 60-second video usually has 5–9
 beats. More than that and you're cutting a trailer, not a story.
 
-Example — a 45-second short:
+Example: a 45-second short:
 
 1. Mara crosses the night market in the rain, hunting for someone.
-2. She spots the stranger's red umbrella — he's here.
+2. She spots the stranger's red umbrella: he's here.
 3. She follows; he turns a corner and vanishes.
 4. The umbrella lies abandoned in an alley. It wasn't him.
-5. She laughs at herself — and notices the dumpling cart guy watching her.
+5. She laughs at herself, and notices the dumpling cart guy watching her.
 6. She sits down. "One bowl." Maybe the night isn't wasted.
 
 Six beats, six changes. That's a story.
 
 ## Shot lists
 
-Each beat becomes one to three shots. The shot list is a table — keep it
+Each beat becomes one to three shots. The shot list is a table, so keep it
 tight:
 
 | # | Beat | Shot | Camera | Duration | Notes |

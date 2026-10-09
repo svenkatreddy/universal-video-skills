@@ -1,6 +1,6 @@
 ---
 name: story-and-shots
-description: Plan AI video like a production — beats, shot lists, storyboards, review gates, and a fast-track for simple jobs. Use when a video needs more than one shot, or when generations keep drifting off-story.
+description: Plan AI video like a production: beats, shot lists, storyboards, review gates, and a fast-track for simple jobs. Use when a video needs more than one shot, or when generations keep drifting off-story.
 ---
 
 # Story and Shots
@@ -11,14 +11,14 @@ is your job, and it gets planned before anyone touches a prompt.
 
 ## The workflow
 
-1. **Beat it out.** Break the story into beats — one line each, each a change
+1. **Beat it out.** Break the story into beats: one line each, each a change
    in the story (`references/beats-and-shot-lists.md`). If you can't list the
    beats, you don't have a story yet.
 2. **Shot-list every beat.** One beat is usually one to three shots. Each shot
    gets a shot-brief (`../video-prompt-craft/`). No shot exists without a
    brief; no brief exists without a beat.
-3. **Board it (for anything complex).** Sketch the sequence visually —
-   `references/storyboard.md`. Storyboards catch screen-direction flips and
+3. **Board it (for anything complex).** Sketch the sequence visually
+   (`references/storyboard.md`). Storyboards catch screen-direction flips and
    pacing problems that text hides.
 4. **Gate it.** Run the quality gates (`references/quality-gates.md`): style
    proof first, asset lock before generation, beat cards that each carry one
@@ -33,7 +33,7 @@ is your job, and it gets planned before anyone touches a prompt.
   beats ten brilliant prompts generated in random order.
 - **Every shot earns its place.** If removing a shot changes nothing, remove
   it. AI video tempts you to keep generating; editing is the skill.
-- **Plan the joins.** Shots don't just sit next to each other — they cut.
+- **Plan the joins.** Shots don't just sit next to each other. They cut.
   Note the transition or match cut per join in the shot list, or the assembly
   stage inherits a mess.
 - **Budget the seconds.** Total runtime divided by shot count is your

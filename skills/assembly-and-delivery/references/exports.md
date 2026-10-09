@@ -8,7 +8,7 @@ is derived. Never upscale, never export from an export.
 - **Codec:** H.264 (`libx264`), `yuv420p`, for compatibility; H.265 if size
   matters more than compatibility.
 - **Bitrate:** 12–20 Mbps for 1080p masters. Masters are for archiving and
-  deriving — don't starve them.
+  deriving. Don't starve them.
 - **Audio:** AAC, 48kHz, 320kbps stereo.
 
 ## Social crops
@@ -20,7 +20,7 @@ ffmpeg -i master.mp4 -vf "crop=608:1080:656:0" -c:v libx264 \
        -b:v 8M -c:a aac short-916.mp4
 ```
 
-But check every shot after cropping — the interesting thing is often not in
+But check every shot after cropping. The interesting thing is often not in
 the center. For shots where it isn't, reframe per shot (crop offsets differ)
 and concat the reframed clips. AI footage framed for 16:9 rarely survives a
 blind center crop.
@@ -33,7 +33,7 @@ anyway; give them enough to work with.
 ## Subtitles per export
 
 - YouTube: upload the `.srt` sidecar.
-- Shorts/Reels/TikTok: burn them in — these players are unreliable with
+- Shorts/Reels/TikTok: burn them in. These players are unreliable with
   sidecars, and most viewers watch muted.
 
 ## The export checklist

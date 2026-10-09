@@ -1,4 +1,4 @@
-# Sora (Adapter — OpenAI)
+# Sora (OpenAI adapter)
 
 _Last verified: 2026-10-08. Verify durations, resolutions, and availability
 against OpenAI's current docs before planning._
@@ -10,7 +10,7 @@ storyboard-style prompting.
 
 ## Prompt quirks
 
-- Handles longer, more narrative prompts than most — you can brief a fuller
+- Handles longer, more narrative prompts than most. You can brief a fuller
   scene, not just a shot.
 - Storyboard/timeline-style input works well: describe the sequence, not
   just the frame.
@@ -21,7 +21,7 @@ storyboard-style prompting.
 
 ## Hard limits
 
-- Duration and resolution caps depend on model version and plan — verify.
+- Duration and resolution caps depend on model version and plan. Verify.
 - Complex multi-character interaction still drifts; keep casts small.
 
 ## Good at / weak at
@@ -34,7 +34,7 @@ storyboard-style prompting.
 ## Translating a shot-brief
 
 - You can merge 2–3 adjacent shot-briefs into one longer Sora prompt when
-  the action is continuous — then split in post if needed.
+  the action is continuous, then split in post if needed.
 - Lean on the storyboard: Sora rewards "and then" structure.
 - Keep camera moves simple and motivated; it renders them cleanly.
-- Still write the Preserve slot — coherence is good, not automatic.
+- Still write the Preserve slot. Coherence is good, not automatic.

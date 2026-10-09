@@ -6,7 +6,7 @@ Run `ffprobe` on every clip. All clips must agree on:
 
 - Codec (H.264 everywhere, ideally)
 - Resolution (1920×1080 everywhere, not "mostly")
-- Frame rate (24 or 30 — pick one per project)
+- Frame rate (24 or 30; pick one per project)
 - Pixel format (`yuv420p` for compatibility)
 - Audio: sample rate and channel count, or no audio at all
 
@@ -51,7 +51,7 @@ Rules of thumb:
 ## Finishing
 
 - **Title card:** 2–3 seconds, project style. Generate it or build it in
-  ffmpeg (`drawtext`) — keep the font files in the project.
+  ffmpeg (`drawtext`). Keep the font files in the project.
 - **Watermark:** small, corner, semi-transparent, throughout. Burn it in on
   the master so every export inherits it.
 - **Subtitles:** sidecar `.srt` for YouTube; burned-in for platforms that
@@ -69,4 +69,4 @@ After assembly, watch 2 seconds on each side of every cut and ask:
 3. Does the audio bridge? (Room tone continuous, no clicks.)
 4. Does the pace breathe? (Not every cut at the same rhythm.)
 
-Fix the clip or the cut — never ship a join you flinched at.
+Fix the clip or the cut. Never ship a join you flinched at.

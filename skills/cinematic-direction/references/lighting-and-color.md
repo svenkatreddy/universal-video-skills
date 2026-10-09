@@ -8,7 +8,7 @@ look cheap" diagnosis ends at lighting.
 
 - **Blue hour.** After sunset, before dark. Blue ambient, warm practicals.
   Romance, melancholy, cities.
-- **Golden hour.** Low warm sun, long shadows. Nostalgia, warmth, beauty —
+- **Golden hour.** Low warm sun, long shadows. Nostalgia, warmth, beauty:
   the most overused and most forgiving light there is.
 - **Harsh noon.** Hard shadows, blown highlights. Exposure, truth, discomfort.
 - **Overcast.** Soft, directionless. Naturalism, gloom, even skin.
@@ -29,7 +29,7 @@ unmotivated ones read as a video game.
 - **Soft.** Diffused, gentle shadows. Overcast, bounced light, big windows.
   Intimacy, beauty, honesty.
 - **Rim / backlight.** Edge glow separating subject from background. Instant
-  depth — the cheapest cinematic trick in the book.
+  depth. The cheapest cinematic trick in the book.
 - **Silhouette.** Subject black against bright background. Mystery, scale,
   endings.
 - **Chiaroscuro.** Deep shadow with sculpted highlights. Caravaggio by way of
@@ -40,14 +40,14 @@ unmotivated ones read as a video game.
 Direct color as simply as light: name a palette, not a feeling.
 
 - **Teal and orange.** The blockbuster default. Complementary contrast that
-  flatters skin. Effective, ubiquitous — use knowingly.
+  flatters skin. Effective, ubiquitous. Use knowingly.
 - **Warm monochrome / sepia-adjacent.** Memory, period, comfort.
 - **Cold desaturated.** Dread, clinical, modern thriller.
 - **Neon-noir.** Saturated magenta/cyan against black. Night cities, clubs,
   cyberpunk.
 - **Pastel / high-key.** Comedy, romance, commercial brightness.
 - **Film stocks as shorthand.** `Kodak Vision3 500T`, `Fuji 400H`,
-  `expired 35mm` — models key on these tokens better than on paragraphs about
+  `expired 35mm`. Models key on these tokens better than on paragraphs about
   grain and warmth.
 
 ## The one-line habit

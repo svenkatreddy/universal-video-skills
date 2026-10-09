@@ -1,8 +1,8 @@
 # Frame Evidence
 
 Watching a clip tells you if it feels right. Stills tell you if it *is*
-right. Pull frames at the moments that matter and look at them frozen —
-drift, morphing, and count errors hide in motion and show in stills.
+right. Pull frames at the moments that matter and look at them frozen.
+Drift, morphing, and count errors hide in motion and show in stills.
 
 ## The contact sheet
 
@@ -21,16 +21,16 @@ What to look at:
   The first-last comparison catches more drift than anything else.
 - **Boundary frames.** ±1 second around every join, from both clips. The
   join is where continuity lives or dies.
-- **Beat frames.** One frame per timed beat — did each beat's action
+- **Beat frames.** One frame per timed beat: did each beat's action
   actually happen?
 
 ## Claim discipline
 
 Say what the evidence shows, not what you hope:
 
-- "Frames show the same jacket in shots 2–4" — a claim.
-- "Looks consistent" — not a claim.
-- "Unverified" — the honest label for anything you didn't check.
+- "Frames show the same jacket in shots 2–4": a claim.
+- "Looks consistent": not a claim.
+- "Unverified": the honest label for anything you didn't check.
 
 Different checks are different claims. A contact sheet proves visual
 continuity; it doesn't prove the audio syncs. Don't let one piece of

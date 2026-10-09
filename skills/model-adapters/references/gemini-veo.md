@@ -1,4 +1,4 @@
-# Gemini / Veo (Adapter — Google)
+# Gemini / Veo (Google adapter)
 
 _Last verified: 2026-10-08. Verify durations, resolutions, and pricing
 against Google's current docs before planning._
@@ -10,7 +10,7 @@ instruction-following, native dialogue, and structured prompts.
 
 ## Prompt quirks
 
-- Takes structured/JSON-style prompts unusually well — the JSON prompting
+- Takes structured/JSON-style prompts unusually well. The JSON prompting
   reference was popularized largely on Veo-class models.
 - Native dialogue and sound: specify speaker + line + language explicitly;
   it handles synced speech better than most, but still verify per line.
@@ -21,7 +21,7 @@ instruction-following, native dialogue, and structured prompts.
 
 ## Hard limits
 
-- Duration caps and max resolution vary by model version and tier — verify.
+- Duration caps and max resolution vary by model version and tier. Verify.
 - On-screen text remains unreliable; keep signage out of focus or composite
   in post.
 
@@ -33,10 +33,10 @@ instruction-following, native dialogue, and structured prompts.
 
 ## Translating a shot-brief
 
-- The shot-brief maps almost 1:1 — keep all eight slots.
+- The shot-brief maps almost 1:1, so keep all eight slots.
 - For pipelines, author in JSON and submit structured; for one-offs, prose
   is fine.
-- Put dialogue in the beats with timestamps, not just in Audio — temporal
+- Put dialogue in the beats with timestamps, not just in Audio. Temporal
   placement matters for sync.
 - Keep the Preserve slot explicit; Veo follows "hold this constant"
   instructions well.

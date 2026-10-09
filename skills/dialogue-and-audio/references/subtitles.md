@@ -2,7 +2,7 @@
 
 Subtitle everything you publish. Most viewers watch with sound off, many
 watch in a second language, and platforms reward captioned video. This isn't
-optional polish — it's distribution.
+optional polish. It's distribution.
 
 ## SRT basics
 
@@ -28,7 +28,7 @@ You came all this way for noodles?
 ## Workflow
 
 1. Lock the edit first. Subtitles timed to a moving cut are wasted work.
-2. Transcribe from the script, not from the audio — the script is the source
+2. Transcribe from the script, not from the audio. The script is the source
    of truth. Fix the script if the take deviated.
 3. Time each cue to the final timeline. Most editors and ffmpeg can burn
    subtitles in or ship them as a sidecar `.srt`.

@@ -10,7 +10,7 @@ workflows, and editor-adjacent features around generation.
 
 ## Prompt quirks
 
-- Excels at style transfer and stylized looks — the style-lens reference
+- Excels at style transfer and stylized looks. The style-lens reference
   pays off most here.
 - Expand/inpaint style workflows: generate core action, then extend the
   frame or fill regions. Plan shots with extension in mind.
@@ -20,7 +20,7 @@ workflows, and editor-adjacent features around generation.
 
 ## Hard limits
 
-- Duration caps per model version — verify.
+- Duration caps per model version. Verify.
 - Photoreal human consistency across long sequences still needs the asset
   discipline; tools don't replace it.
 
@@ -32,7 +32,7 @@ workflows, and editor-adjacent features around generation.
 
 ## Translating a shot-brief
 
-- Put the style lens up front — Runway keys on it strongly.
+- Put the style lens up front. Runway keys on it strongly.
 - For tricky compositions, generate wide and crop/extend rather than
   fighting for the exact frame in one pass.
 - Keep the Avoid slot; stylization doesn't exempt you from extra fingers.

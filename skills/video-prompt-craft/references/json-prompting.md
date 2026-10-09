@@ -58,7 +58,7 @@ keeping.
 ## Practical notes
 
 - Keep field names stable across your project. The schema above is a starting
-  point — adapt it, then freeze it.
+  point. Adapt it, then freeze it.
 - `reference_id` points at your asset registry
   (`../../character-consistency/references/asset-registry.md`). The ID is the
   contract; the description is the fallback.
@@ -66,4 +66,4 @@ keeping.
   script check catches more errors than a careful re-read.
 - Some models accept JSON natively; others want it flattened to prose. The
   model adapters (`../../model-adapters/`) note which is which. Either way,
-  author in JSON and render to prose when needed — never the reverse.
+  author in JSON and render to prose when needed, never the reverse.

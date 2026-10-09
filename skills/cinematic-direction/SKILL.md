@@ -1,6 +1,6 @@
 ---
 name: cinematic-direction
-description: Direct the look of AI video like a cinematographer — camera language, movement, lighting, color, and style lenses. Use when a prompt needs a real shot in it, not just a subject, or when results look flat and amateur.
+description: Direct the look of AI video like a cinematographer: camera language, movement, lighting, color, and style lenses. Use when a prompt needs a real shot in it, not just a subject, or when results look flat and amateur.
 ---
 
 # Cinematic Direction
@@ -17,12 +17,12 @@ then light, then the overall style.
 
 1. **Pick the shot.** Framing + angle + movement from
    `references/camera-language.md`. One of each, stated plainly. If the camera
-   doesn't move, write "locked off" — stillness is a decision.
+   doesn't move, write "locked off". Stillness is a decision.
 2. **Light it.** Time of day, source, quality from
    `references/lighting-and-color.md`. Light does more for "cinematic" than
    any other single choice.
-3. **Set the style.** A style lens from `references/style-lenses.md` — a film
-   stock, an era, a director's grammar — stated as concrete tokens, not
+3. **Set the style.** A style lens from `references/style-lenses.md`: a film
+   stock, an era, a director's grammar, stated as concrete tokens, not
    adjectives. One lens per project, used consistently.
 4. **Write it into the brief.** Camera and light slots in the shot-brief
    grammar (`../video-prompt-craft/references/prompt-grammar.md`) are where
@@ -32,7 +32,7 @@ then light, then the overall style.
 ## Rules that don't bend
 
 - **Name the lens, don't describe it.** "35mm, f/2, Kodak Vision3 500T" beats
-  "shot on film, cinematic look." Signature tokens — stocks, lenses, eras —
+  "shot on film, cinematic look." Signature tokens (stocks, lenses, eras)
   are how models actually key into looks.
 - **One move per shot.** Push in *or* orbit *or* track. Two moves in 8 seconds
   reads as indecision and usually smears.
