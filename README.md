@@ -90,8 +90,13 @@ Jiang Yong Luo's muse-video-skill; the shot-brief structure and case
 standards to ImagineVid's awesome list; the motion grammar and evidence
 gates to Pluviobyte's video-production-skills; and the vendor-neutral,
 multi-agent positioning to the wider community (visual-skills, DirectorSKILL,
-the cinematic-video-prompt-skill, and others). Everything here is rewritten
-in my own words — borrow the ideas, credit the people.
+the cinematic-video-prompt-skill, and others). The I2V prompt-subtraction
+principle comes from 0xzgbot's hermes-media-skill-pack (MIT); the failure
+taxonomy and layered-gate structure from the indie-qa work in xiaowli's
+openmontage (AGPLv3 — concepts only, no code taken); the embedding-based
+identity QA pattern from ndpvt-web's capy-video-gen-skill (MIT).
+Everything here is rewritten in my own words — borrow the ideas, credit
+the people.
 
 ## Contributing
 

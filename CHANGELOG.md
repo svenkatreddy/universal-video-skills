@@ -16,3 +16,16 @@ First release. Eight skills, written from scratch:
 - `video-qa` — checklists, frame-evidence contact-sheet script, continuity
 
 Plus worked examples, per-agent install docs, and an honest-limits page.
+
+### Added post-review (still 0.1.0, pre-publish)
+
+- `video-prompt-craft/references/i2v-prompting.md` — the I2V prompt
+  subtraction principle: describe only motion, never redescribe the anchor
+  image (after hermes-media-skill-pack, MIT)
+- `video-qa/references/failure-taxonomy.md` — defect → fix table with
+  layered gates, cheapest checks first (after openmontage indie-qa;
+  AGPLv3, concepts only)
+- `video-qa/references/automated-identity-qa.md` +
+  `video-qa/scripts/identity_score.py` — CLIP-embedding frame scoring vs.
+  a reference image, with mandatory per-project calibration
+  (after capy-video-gen-skill, MIT)

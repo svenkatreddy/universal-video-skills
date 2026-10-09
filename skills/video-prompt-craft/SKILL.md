@@ -18,6 +18,7 @@ what it must not do.** Everything else is commentary.
 1. **Brief it.** Write the prompt in the shot-brief grammar
    (`references/prompt-grammar.md`). Eight slots, no more. If a slot is empty,
    that's a decision you're handing to the model — do it on purpose or fill it.
+   For image-to-video, subtract instead: `references/i2v-prompting.md`.
 2. **Consider JSON.** For pipelines, revisions, or multi-shot work, write the
    brief as JSON instead of prose (`references/json-prompting.md`). Same
    information, but diffable and harder to silently change between drafts.

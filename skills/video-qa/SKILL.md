@@ -14,10 +14,13 @@ shots survive into the final cut.
 
 1. **Check against the brief.** The shot-brief is the spec
    (`references/qa-checklist.md`). The clip either does its story job or it
-   doesn't — everything else is secondary.
+   doesn't — everything else is secondary. Name failures from the taxonomy
+   (`references/failure-taxonomy.md`) so each defect maps to its fix.
 2. **Pull frame evidence.** Contact sheets at clip boundaries and key beats
-   (`references/frame-evidence.md`, `scripts/contact_sheet.py`). Eyes miss
-   drift that stills catch.
+   (`references/frame-evidence.md`, `scripts/contact_sheet.py`). For volume,
+   run the embedding triage first (`references/automated-identity-qa.md`,
+   `scripts/identity_score.py`) — humans review the failures plus a sample
+   of passes. Eyes miss drift that stills catch.
 3. **Check the joins.** Continuity across every cut
    (`references/continuity.md`): geography, light, wardrobe, screen
    direction.
