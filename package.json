@@ -1,0 +1,38 @@
+{
+    "author": "Smarty <https://github.com/svenkatreddy>",
+    "description": "Vendor-neutral AI video generation skills for coding agents \u2014 prompt craft, cinematic direction, story planning, character consistency, audio, assembly, per-model adapters, and QA. Works with Muse, Claude, Grok, Gemini, and any Agent Skills-compatible client.",
+    "engines": {
+        "node": ">=18"
+    },
+    "files": [
+        "skills/",
+        "examples/",
+        "docs/",
+        "README.md",
+        "CHANGELOG.md",
+        "LICENSE"
+    ],
+    "homepage": "https://github.com/svenkatreddy/universal-video-skills",
+    "keywords": [
+        "ai",
+        "video",
+        "video-generation",
+        "agent-skills",
+        "claude-skills",
+        "prompt-engineering",
+        "text-to-video",
+        "cinematography",
+        "veo",
+        "sora",
+        "kling",
+        "runway",
+        "pika"
+    ],
+    "license": "MIT",
+    "name": "universal-video-skills",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/svenkatreddy/universal-video-skills.git"
+    },
+    "version": "0.1.0"
+}

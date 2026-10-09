@@ -1,0 +1,46 @@
+{
+    "assets": [
+        {
+            "frozen_description": "MARA, 34, sharp jawline, straight nose, dark brown eyes, no glasses. Copper-red bob, straight, jaw-length, side part on the left. 5'7\", lean. Olive bomber jacket, black t-shirt, dark jeans, worn white sneakers. Small silver hoop earrings. Faint scar through the left eyebrow.",
+            "id": "mara-01",
+            "never": [
+                "long hair",
+                "different jacket color",
+                "heavy makeup"
+            ],
+            "reference_images": [
+                "assets/mara-front.png",
+                "assets/mara-profile.png"
+            ],
+            "type": "character",
+            "voice": "tts-voice-mara-01"
+        },
+        {
+            "frozen_description": "Classic straight-handle umbrella, solid poppy red, no pattern, wooden handle. Fully open, 100cm canopy.",
+            "id": "umbrella-red-01",
+            "never": [
+                "patterns",
+                "different red",
+                "compact/folding shape"
+            ],
+            "reference_images": [
+                "assets/umbrella.png"
+            ],
+            "type": "prop"
+        },
+        {
+            "frozen_description": "Covered night market alley: canvas awnings, neon signs in red/gold/teal overhead, wet asphalt reflecting light, dumpling cart mid-alley on the right with steam.",
+            "id": "market-location-01",
+            "never": [
+                "daylight",
+                "modern glass architecture",
+                "empty street"
+            ],
+            "reference_images": [
+                "assets/market-wide.png"
+            ],
+            "type": "location"
+        }
+    ],
+    "project": "night-market"
+}

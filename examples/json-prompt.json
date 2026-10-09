@@ -1,0 +1,51 @@
+{
+    "aspect_ratio": "16:9",
+    "audio": {
+        "ambience": "night market chatter, vendor shouting in Cantonese, distant traffic",
+        "dialogue": [],
+        "foley": [
+            "sizzle",
+            "rain on canvas awnings"
+        ]
+    },
+    "avoid": [
+        "morphing faces",
+        "extra limbs",
+        "readable text on signs",
+        "slow motion",
+        "camera shake",
+        "oversaturated colors"
+    ],
+    "beats": [
+        {
+            "action": "she weaves between stalls, neon signs sliding past behind her",
+            "t": "0-3s"
+        },
+        {
+            "action": "she slows at a dumpling cart, steam washing over her face",
+            "t": "3-6s"
+        },
+        {
+            "action": "she looks up into the lens and smiles, barely",
+            "t": "6-8s"
+        }
+    ],
+    "camera": {
+        "framing": "tracking shot at waist height",
+        "lens": "35mm",
+        "movement": "dolly keeping pace on subject's left, locked horizon, no shake"
+    },
+    "duration_sec": 8,
+    "preserve": [
+        "Mara's face, copper bob, and olive bomber jacket identical throughout",
+        "three stalls on her right, no more",
+        "rain visible in the neon light"
+    ],
+    "setting": "night market in the rain, neon signs, canvas awnings, blue hour",
+    "shot_id": "nm-s03",
+    "style": "1970s paranoia thriller: 35mm, natural light, muted warm grade, subtle grain",
+    "subject": {
+        "description": "MARA, 34, sharp jaw, copper bob, olive bomber jacket, black t-shirt, dark jeans",
+        "reference_id": "mara-01"
+    }
+}
