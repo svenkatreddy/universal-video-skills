@@ -32,6 +32,20 @@
 3. Update the adapter's "Last verified" date when you touch specs.
 4. One idea per file. If a reference tries to do two jobs, split it.
 
+## Tests
+
+`scripts/smoke-test.sh` exercises the helper scripts against
+ffmpeg-generated synthetic clips: concat happy path, the audio-mismatch
+gate, the output==input guard, contact-sheet generation, arg validation,
+and identity-QA's graceful degradation without torch. Run it before
+pushing any change to a script:
+
+```bash
+./scripts/smoke-test.sh
+```
+
+It needs ffmpeg on PATH. All 7 checks must pass.
+
 ## License
 
 Contributions are under the MIT license, same as the repo.
