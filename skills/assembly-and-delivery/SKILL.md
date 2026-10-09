@@ -1,6 +1,6 @@
 ---
 name: assembly-and-delivery
-description: Stitch AI clips into a finished video: ffmpeg concat, transitions, title cards, watermarks, subtitles, and platform exports (16:9, 9:16, 1:1). Use when individual clips exist and need to become one video.
+description: "Stitch AI clips into a finished video: ffmpeg concat, transitions, title cards, watermarks, subtitles, and platform exports (16:9, 9:16, 1:1). Use when individual clips exist and need to become one video."
 ---
 
 # Assembly and Delivery

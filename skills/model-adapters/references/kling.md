@@ -19,7 +19,7 @@ human movement and dynamic shots.
 
 ## Hard limits
 
-- Duration caps per model version, so verify. Plan multi-shot for anything
+- Duration caps vary by model version, so verify. Plan multi-shot for anything
   longer.
 - Text rendering unreliable, as everywhere.
 

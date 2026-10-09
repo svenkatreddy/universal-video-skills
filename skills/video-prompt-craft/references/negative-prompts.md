@@ -23,9 +23,7 @@ impossible motion, jitter, strobing`
 burned in`. Models still cannot render text reliably; if you need a readable
 sign, plan to composite it in post.
 
-**Camera.** `camera shake, sudden zoom, dutch angle drift`: only if you asked
-for them.
-for them.
+**Camera.** `camera shake, sudden zoom, dutch angle drift` (skip any you actually want).
 
 **Look.** `oversaturated, plastic skin, airbrushed, video-game render`: use
 only if you're chasing realism; drop these when stylization is the point.

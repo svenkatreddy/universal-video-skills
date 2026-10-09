@@ -1,6 +1,6 @@
 ---
 name: dialogue-and-audio
-description: Dialogue, voiceover, subtitles, and mixing for AI video: TTS casting, per-line timing, SRT subtitles, loudness. Use when a video has spoken lines, narration, or needs its audio finished in post.
+description: "Dialogue, voiceover, subtitles, and mixing for AI video: TTS casting, per-line timing, SRT subtitles, loudness. Use when a video has spoken lines, narration, or needs its audio finished in post."
 ---
 
 # Dialogue and Audio

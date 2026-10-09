@@ -1,6 +1,6 @@
 ---
 name: cinematic-direction
-description: Direct the look of AI video like a cinematographer: camera language, movement, lighting, color, and style lenses. Use when a prompt needs a real shot in it, not just a subject, or when results look flat and amateur.
+description: "Direct the look of AI video like a cinematographer: camera language, movement, lighting, color, and style lenses. Use when a prompt needs a real shot in it, not just a subject, or when results look flat and amateur."
 ---
 
 # Cinematic Direction

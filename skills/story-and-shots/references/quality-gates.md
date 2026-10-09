@@ -36,7 +36,7 @@ by shot.
 
 Before generating a beat's shots, fill one card per beat:
 
-- **Main moving thing:** (one. The beat has a single visual protagonist)
+- **Main moving thing:** (just one: the beat has a single visual protagonist)
 - **Start state → end state:** (what visibly changes)
 - **Camera move:** (the one move, motivated)
 - **Failure risk:** (what will probably go wrong, and the mitigation)
