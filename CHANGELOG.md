@@ -29,3 +29,12 @@ Plus worked examples, per-agent install docs, and an honest-limits page.
   `video-qa/scripts/identity_score.py` — CLIP-embedding frame scoring vs.
   a reference image, with mandatory per-project calibration
   (after capy-video-gen-skill, MIT)
+
+### Honest-review fixes (still 0.1.0, pre-publish)
+
+- `concat.py`: audio streams now gated like video (docstring claimed it;
+  code didn't), single-quote escaping in the concat list, refuse
+  output==input, `+genpts` for safer joins
+- `identity_score.py`: warns about the ~350MB first-run CLIP download
+- `contact_sheet.py`: clean errors for `--n 0` / bad `--times`
+- New `scripts/smoke-test.sh`: 7 checks, all passing

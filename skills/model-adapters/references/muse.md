@@ -11,7 +11,7 @@ loop.
 
 ## Prompt quirks
 
-- Short clips (around ~10 seconds) — plan in segments and stitch, don't
+- Short clips (~10 seconds) — plan in segments and stitch, don't
   wish for long takes.
 - Works well from the shot-brief grammar in prose; keep prompts ASCII-only
   (non-ASCII filenames and text have caused upstream rejections).

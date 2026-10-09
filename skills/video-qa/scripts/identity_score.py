@@ -92,6 +92,10 @@ def get_model(model_name, device):
         if device == "cpu":
             print("note: running on CPU — scoring will be slow (~1-2s/frame).",
                   file=sys.stderr)
+        cache = os.path.expanduser("~/.cache/clip")
+        if not (os.path.isdir(cache) and os.listdir(cache)):
+            print("first run: downloading CLIP weights (~350MB, cached afterwards)...",
+                  file=sys.stderr)
         model, _, preprocess = open_clip.create_model_and_transforms(
             model_name, pretrained="openai", device=device)
         model.eval()

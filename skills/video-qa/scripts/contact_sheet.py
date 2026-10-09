@@ -46,12 +46,35 @@ def grab(path, t, out):
         sys.exit(f"frame grab failed at t={t}")
 
 
+def positive_int(v):
+    try:
+        iv = int(v)
+    except ValueError:
+        raise argparse.ArgumentTypeError(f"not an integer: {v!r}")
+    if iv < 1:
+        raise argparse.ArgumentTypeError("--n must be >= 1")
+    return iv
+
+
+def time_list(v):
+    try:
+        ts = [float(x) for x in v.split(",")]
+    except ValueError:
+        raise argparse.ArgumentTypeError(
+            "--times must be comma-separated numbers")
+    if not ts:
+        raise argparse.ArgumentTypeError("--times must not be empty")
+    return ts
+
+
 def main():
     ap = argparse.ArgumentParser(description="Build a contact sheet from a clip.")
     ap.add_argument("video", help="Input video")
     ap.add_argument("-o", "--output", required=True, help="Output image")
-    ap.add_argument("--n", type=int, default=12, help="Frame count (default 12)")
-    ap.add_argument("--times", help="Comma-separated timestamps instead of even spacing")
+    ap.add_argument("--n", type=positive_int, default=12,
+                    help="Frame count (default 12)")
+    ap.add_argument("--times", type=time_list,
+                    help="Comma-separated timestamps instead of even spacing")
     ap.add_argument("--cols", type=int, default=4, help="Grid columns (default 4)")
     ap.add_argument("--thumb", type=int, default=320, help="Thumbnail width (default 320)")
     args = ap.parse_args()
@@ -59,7 +82,7 @@ def main():
     if not os.path.isfile(args.video):
         sys.exit(f"not found: {args.video}")
     dur = duration(args.video)
-    times = ([float(x) for x in args.times.split(",")] if args.times
+    times = (args.times if args.times
              else [dur * (i + 0.5) / args.n for i in range(args.n)])
     times = [min(max(t, 0), dur - 0.05) for t in times]
 

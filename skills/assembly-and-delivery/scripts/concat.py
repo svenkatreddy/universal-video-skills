@@ -36,14 +36,23 @@ def stream_info(path):
     if not v:
         sys.exit(f"{path}: no video stream found")
     dur = float(data["format"].get("duration", 0) or 0)
+    audio = "none"
+    if a:
+        audio = (f'{a["codec_name"]} {a.get("sample_rate", "?")}Hz '
+                 f'{a.get("channels", "?")}ch')
     return {
         "codec": v["codec_name"],
         "size": f'{v["width"]}x{v["height"]}',
         "fps": v.get("r_frame_rate", "?"),
         "pix_fmt": v.get("pix_fmt", "?"),
-        "audio": f'{a["codec_name"]} {a.get("sample_rate", "?")}Hz' if a else "none",
+        "audio": audio,
         "duration": dur,
     }
+
+
+def esc(path):
+    """Escape a path for the concat demuxer file list."""
+    return os.path.abspath(path).replace("'", "'\\''")
 
 
 def main():
@@ -55,13 +64,16 @@ def main():
     for c in args.clips:
         if not os.path.isfile(c):
             sys.exit(f"not found: {c}")
+    out_abs = os.path.abspath(args.output)
+    if out_abs in {os.path.abspath(c) for c in args.clips}:
+        sys.exit("refusing: output must not be one of the inputs.")
 
     print("Probing inputs...")
     infos = [stream_info(c) for c in args.clips]
     ref = infos[0]
     ok = True
     for path, info in zip(args.clips, infos):
-        mism = [k for k in ("codec", "size", "fps", "pix_fmt")
+        mism = [k for k in ("codec", "size", "fps", "pix_fmt", "audio")
                 if info[k] != ref[k]]
         flag = "OK " if not mism else "MISMATCH"
         if mism:
@@ -76,13 +88,13 @@ def main():
 
     with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False) as f:
         for c in args.clips:
-            f.write(f"file '{os.path.abspath(c)}'\n")
+            f.write(f"file '{esc(c)}'\n")
         listfile = f.name
 
     print("Concatenating...")
     r = subprocess.run(
-        ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", listfile,
-         "-c", "copy", args.output],
+        ["ffmpeg", "-y", "-fflags", "+genpts", "-f", "concat", "-safe", "0",
+         "-i", listfile, "-c", "copy", args.output],
         capture_output=True, text=True,
     )
     os.unlink(listfile)
