@@ -41,13 +41,16 @@ and identity-QA's graceful degradation without torch. Run it before
 pushing any change to a script:
 
 ```bash
-./scripts/smoke-test.sh
+bash scripts/smoke-test.sh
 ```
 
 It needs `ffmpeg`, `ffprobe`, and `python3` on PATH, plus Pillow
-(`pip install Pillow`). All 7 checks must pass; the identity-QA check
-prints SKIP instead when torch is installed (the graceful-degradation
-path can't be exercised with torch present).
+(`pip install Pillow`). Run through `bash` (not `./`) so it works
+without the exec bit: npm tarballs and some GitHub API pushes land
+the file as 0644. All 7 checks must pass; the --frames validation
+check runs regardless of torch, while the graceful-degradation check
+prints SKIP instead when torch is installed (the graceful path can't
+be exercised with torch present).
 
 ## License
 

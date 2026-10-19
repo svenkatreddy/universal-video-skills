@@ -1,5 +1,27 @@
 # Changelog
 
+## Unreleased
+
+- `stitching.md`: the transcode fix-up now covers silent clips. The old
+  single command could not fix a silent odd clip (ffmpeg will not invent
+  an audio stream for `-c:a`), so the concat gate kept failing after
+  following the doc. Added the `-an` variant for silent projects and the
+  silent-track (`anullsrc`) variant for silent clips joining a project
+  with audio.
+- `stitching.md`: the `xfade` example mapped video only, silently dropping
+  audio and tripping the concat gate downstream. Documented the `offset`
+  math and added the `acrossfade` variant that preserves audio.
+- `contact_sheet.py`: `--cols` and `--thumb` now validate like `--n`
+  (previously `--cols 0` crashed with `ZeroDivisionError`).
+- `identity_score.py`: `--frames` now validates as a positive int
+  (previously `--frames 0` died in `max()` on an empty frame list).
+- `smoke-test.sh`: the arg-validation checks now cover the new cases.
+- `package.json`: fixed the `author` field (URL sat in the email slot);
+  `scripts/` is now in the published tarball so the documented smoke
+  test runs from an npm install. Invoked via `bash scripts/smoke-test.sh`
+  (CONTRIBUTING.md updated) because the exec bit does not survive npm
+  tarballs or GitHub API pushes.
+
 ## 0.1.0 (2026-10-08)
 
 First release. Eight skills, written from scratch:

@@ -52,6 +52,16 @@ def need_deps():
         )
 
 
+def positive_int(v):
+    try:
+        iv = int(v)
+    except ValueError:
+        raise argparse.ArgumentTypeError(f"not an integer: {v!r}")
+    if iv < 1:
+        raise argparse.ArgumentTypeError("must be >= 1")
+    return iv
+
+
 def parse_args():
     ap = argparse.ArgumentParser(
         description="CLIP-embedding identity QA: score clip frames vs a reference image."
@@ -59,7 +69,7 @@ def parse_args():
     ap.add_argument("--ref", help="Reference image (character sheet).")
     ap.add_argument("--clips", nargs="*", default=[],
                     help="Clip files to score.")
-    ap.add_argument("--frames", type=int, default=12,
+    ap.add_argument("--frames", type=positive_int, default=12,
                     help="Frames extracted per clip (default 12).")
     ap.add_argument("--threshold", type=float, default=None,
                     help="Max allowed worst-frame cosine distance. "

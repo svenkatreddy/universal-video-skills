@@ -56,13 +56,23 @@ pass "contact_sheet"
 echo "== 6. contact_sheet.py rejects bad args =="
 out=$(python3 "$SHEET" "$TMP/master.mp4" -o "$TMP/x.jpg" --n 0 2>&1 || true)
 echo "$out" | grep -q "must be >= 1" || fail "--n 0 validation"
+out=$(python3 "$SHEET" "$TMP/master.mp4" -o "$TMP/x.jpg" --cols 0 2>&1 || true)
+echo "$out" | grep -q "must be >= 1" || fail "--cols 0 validation"
+out=$(python3 "$SHEET" "$TMP/master.mp4" -o "$TMP/x.jpg" --thumb 0 2>&1 || true)
+echo "$out" | grep -q "must be >= 1" || fail "--thumb 0 validation"
 out=$(python3 "$SHEET" "$TMP/master.mp4" -o "$TMP/x.jpg" \
   --times "abc" 2>&1 || true)
 echo "$out" | grep -q "comma-separated numbers" \
   || fail "--times validation"
 pass "arg validation"
 
-echo "== 7. identity_score.py graceful without torch =="
+echo "== 7. identity_score.py arg validation and graceful without torch =="
+# argparse validation runs before dependency loading, so the --frames
+# check holds whether or not torch is installed.
+out=$(python3 "$SCORE" --ref x --clips y --frames 0 --threshold 0.3 \
+  2>&1 || true)
+echo "$out" | grep -q "must be >= 1" || fail "--frames 0 validation"
+pass "--frames validation"
 if python3 -c "import torch" 2>/dev/null; then
   echo "SKIP: torch present (graceful path not testable here)"
 else

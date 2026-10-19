@@ -52,7 +52,7 @@ def positive_int(v):
     except ValueError:
         raise argparse.ArgumentTypeError(f"not an integer: {v!r}")
     if iv < 1:
-        raise argparse.ArgumentTypeError("--n must be >= 1")
+        raise argparse.ArgumentTypeError("must be >= 1")
     return iv
 
 
@@ -75,8 +75,10 @@ def main():
                     help="Frame count (default 12)")
     ap.add_argument("--times", type=time_list,
                     help="Comma-separated timestamps instead of even spacing")
-    ap.add_argument("--cols", type=int, default=4, help="Grid columns (default 4)")
-    ap.add_argument("--thumb", type=int, default=320, help="Thumbnail width (default 320)")
+    ap.add_argument("--cols", type=positive_int, default=4,
+                    help="Grid columns (default 4)")
+    ap.add_argument("--thumb", type=positive_int, default=320,
+                    help="Thumbnail width (default 320)")
     args = ap.parse_args()
 
     if not os.path.isfile(args.video):
